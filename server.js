@@ -23,3 +23,7 @@ const dbConnection = async() => {
 }
 
 dbConnection()
+
+app.listen(PORT, () => {
+    console.log(`Express está escuchando en el puerto :${PORT}`)
+})
